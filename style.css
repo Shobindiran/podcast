@@ -416,6 +416,7 @@ background-color: #F7EDE8;
 
 .sponsor-wrapper{
     position: relative;
+    background-color: white;
     z-index:1;
 }
 
@@ -428,12 +429,14 @@ background-color: #F7EDE8;
 }
 
 .sponsor-wrapper>img:last-of-type{
+    z-index:-1;
     position: absolute;
     bottom: 0px;
     transform: translate(-50%,10%);
 }
 
 .sponsor-wrapper>div>div>div>div{
+    background-color: white;
     border:2px black solid;
     padding:40px;
     border-radius: 11px;
@@ -503,7 +506,6 @@ background-color: #F7EDE8;
 .article-wrapper{
     padding-bottom:50px;
     position: relative;
-    z-index: 1;
 }
 
 .article-wrapper>div>div>div{
@@ -542,6 +544,11 @@ background-color: #F7EDE8;
     color:#CD4631;
 }
 
+.article-wrapper>div>div>div{
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
 .article-wrapper>img:first-of-type{
     position:absolute;
     bottom:0;
@@ -554,7 +561,7 @@ background-color: #F7EDE8;
     position:absolute;
     top:0;
     z-index: -1;
-    transform: translate(-50%,-50%);
+    transform: translate(-45%,-45%);
 }
 
 /* article ends */
